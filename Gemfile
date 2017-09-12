@@ -35,6 +35,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'react-rails'
 gem 'jquery-rails'
+gem 'httparty'
 
 group :test do
   gem 'rspec-rails'
