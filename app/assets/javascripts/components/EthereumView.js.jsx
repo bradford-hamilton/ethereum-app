@@ -3,6 +3,16 @@ class EthereumView extends React.Component {
     super(props)
   }
 
+  componentDidMount() {
+    axios.get('http://localhost:3000/api')
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((err) => {
+        console.log(err);
+      })
+  }
+
   render() {
     return (
       <div>
