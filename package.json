@@ -3,7 +3,11 @@
   "private": true,
   "dependencies": {
     "axios": "^0.16.2",
-    "react": "^15.6.1"
+    "browserify": "^14.4.0",
+    "browserify-incremental": "^3.1.1",
+    "jquery-ujs": "^1.2.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   },
   "description": "This README would normally document whatever steps are necessary to get the application up and running.",
   "version": "1.0.0",
