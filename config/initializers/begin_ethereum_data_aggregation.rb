@@ -1,1 +1,1 @@
-EthereumDataAggregatorJob.perform_now
+EthereumDataAggregatorJob.perform_later
