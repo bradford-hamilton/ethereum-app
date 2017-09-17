@@ -26,3 +26,5 @@ var ReactDOM = window.ReactDOM = require('react-dom');
 window.$ = window.jQuery = require('jquery')
 require('jquery-ujs')
 window.axios = require('axios');
+window.d3 = require('d3');
+window.c3 = require('c3');
